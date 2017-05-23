@@ -1,7 +1,7 @@
 //add dependencies
 var express= require('express');
 var app=express();
-require('run-middleware')(app)
+// require('run-middleware')(app)
 var bodyParser= require('body-parser');
 var mongoose = require('mongoose');
 var DB_URI_LOCAL="mongodb://localhost:27017/protoflio";

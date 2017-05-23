@@ -8,7 +8,8 @@ var botUserSchema = mongoose.Schema({
     lat:Number,
     long:Number
   },
-  gender: Boolean //true -> male
+  gender: Boolean, //true -> male
+  language :{type:String,default:"english"}
 })
 
 var BotUser = mongoose.model("botUser", botUserSchema);
